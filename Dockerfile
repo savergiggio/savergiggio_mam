@@ -7,7 +7,7 @@ WORKDIR /app
 RUN apt-get update && apt-get install -y git
 
 # Clone the repository
-RUN git clone https://github.com/savergiggio/savergiggio_mam .
+RUN git clone https://github.com/savergiggio/savergiggio_mam.git .
 
 # Copy the local config.json file to the container
 
